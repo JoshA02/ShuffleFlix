@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ShuffleFlix",
+  "version": "1.0",
+  "permissions": [
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
