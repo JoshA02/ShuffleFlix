@@ -2,3 +2,5 @@
 *.DS_Store
 *.js
 package-lock.json
+*.crx
+*.pem
