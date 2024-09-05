@@ -3,9 +3,7 @@
   "name": "RandFlix",
   "version": "0.0.0.1",
   "description": "Select a random episode of a TV show on Netflix",
-  "permissions": [
-    "webNavigation"
-  ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["*://*.netflix.com/*"],
